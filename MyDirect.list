@@ -1,0 +1,15 @@
+# === 阿里系修复 ===
+# 打破饿了么/淘宝监控死循环，解决CPU满载发热
+DOMAIN-SUFFIX,app-monitor.ele.me
+
+# === 京东系修复 ===
+# 斩断HTTPDNS死等与消息组件误杀，解决主界面加载卡顿
+DOMAIN,dns.jd.com
+DOMAIN-SUFFIX,im-x.jd.com
+IP-CIDR,101.124.19.122/32,no-resolve
+
+# === 美团系修复 ===
+# 抢通主CDN与备用调度IP，解决图片不显与暴力重试发热
+DOMAIN-SUFFIX,d.meituan.net
+IP-CIDR,202.90.108.13/32,no-resolve
+IP-CIDR,202.90.110.46/32,no-resolve
