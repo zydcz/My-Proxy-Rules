@@ -1,10 +1,5 @@
-
-# ==========================================
-# MyDirect.list - 终极直连降温与防卡顿白名单
-# ==========================================
-
 # === 1. 阿里系修复 (淘宝/支付宝/饿了么) ===
-# 打破无限重试，解决CPU发热；修复闪购死等卡顿与绕道海外
+# 打破探针死循环防发热；修复闪购HTTPDNS死等卡顿与绕道海外
 DOMAIN-SUFFIX,app-monitor.ele.me
 DOMAIN-SUFFIX,amdc.alipay.com
 DOMAIN-SUFFIX,alibabachengdun.com
@@ -21,28 +16,18 @@ DOMAIN-SUFFIX,360buyimg.com
 IP-CIDR,101.124.19.122/32,no-resolve
 
 # === 3. 美团系修复 ===
-# 抢通主CDN与备用调度IP，解决图片不显与暴力重试发热
+# 抢通主CDN与备用调度IP，解决图片不显与暴力并发发热
 DOMAIN-SUFFIX,d.meituan.net
 IP-CIDR,202.90.108.13/32,no-resolve
 IP-CIDR,202.90.110.46/32,no-resolve
 
-# === 4. 百度贴吧/全家桶终极绥靖名单 ===
-# 全面特赦流氓探针，打断网络层死循环重试，彻底解决发热
-# (广告视觉屏蔽已全权交由 MITM 模块处理)
-
-# -- 腾讯系探针 --
+# === 4. 百度贴吧/全家桶探针放行 ===
+# 仅放行底层遥测与防劫持探针，切断网络层并发重试，解放 A 系芯片算力
 DOMAIN-SUFFIX,sdk.e.qq.com
 DOMAIN-SUFFIX,snowflake.qq.com
 DOMAIN-SUFFIX,mazu.m.qq.com
-
-# -- 百度系探针与死等IP --
 DOMAIN-SUFFIX,als.baidu.com
 DOMAIN-SUFFIX,dlswbr.baidu.com
 DOMAIN,union-httpdns.gslb.yy.com
 IP-CIDR,180.76.76.200/32,no-resolve
-
-# -- 字节系/穿山甲联盟探针 --
 DOMAIN-SUFFIX,ctobsnssdk.com
-DOMAIN-SUFFIX,pglstatp-toutiao.com
-DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
-DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com
