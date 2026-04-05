@@ -19,3 +19,17 @@ IP-CIDR,47.246.0.0/16,no-resolve
 
 # 补充：修复京东商品核心图片 CDN 绕道代理
 DOMAIN-SUFFIX,360buyimg.com
+# === 百度贴吧/终极绥靖特赦名单（打断无限重试，换取CPU冰凉） ===
+# 腾讯系探针
+DOMAIN-SUFFIX,sdk.e.qq.com
+DOMAIN-SUFFIX,snowflake.qq.com
+DOMAIN-SUFFIX,mazu.m.qq.com
+
+# 百度系探针与死等IP
+DOMAIN-SUFFIX,als.baidu.com
+DOMAIN-SUFFIX,dlswbr.baidu.com
+DOMAIN,union-httpdns.gslb.yy.com
+IP-CIDR,180.76.76.200/32,no-resolve
+
+# 字节系底层日志
+DOMAIN-SUFFIX,ctobsnssdk.com
