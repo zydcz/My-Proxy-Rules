@@ -1,35 +1,48 @@
-# === 阿里系修复 ===
-# 打破饿了么/淘宝监控死循环，解决CPU满载发热
-DOMAIN-SUFFIX,app-monitor.ele.me
 
-# === 京东系修复 ===
-# 斩断HTTPDNS死等与消息组件误杀，解决主界面加载卡顿
+# ==========================================
+# MyDirect.list - 终极直连降温与防卡顿白名单
+# ==========================================
+
+# === 1. 阿里系修复 (淘宝/支付宝/饿了么) ===
+# 打破无限重试，解决CPU发热；修复闪购死等卡顿与绕道海外
+DOMAIN-SUFFIX,app-monitor.ele.me
+DOMAIN-SUFFIX,amdc.alipay.com
+DOMAIN-SUFFIX,alibabachengdun.com
+DOMAIN-SUFFIX,ut.taobao.com
+DOMAIN-SUFFIX,loggw-ex.alipay.com
+DOMAIN-SUFFIX,adashx.m.taobao.com
+IP-CIDR,47.246.0.0/16,no-resolve
+
+# === 2. 京东系修复 ===
+# 斩断HTTPDNS死等与消息组件误杀，修复商品图片CDN绕道
 DOMAIN,dns.jd.com
 DOMAIN-SUFFIX,im-x.jd.com
+DOMAIN-SUFFIX,360buyimg.com
 IP-CIDR,101.124.19.122/32,no-resolve
 
-# === 美团系修复 ===
+# === 3. 美团系修复 ===
 # 抢通主CDN与备用调度IP，解决图片不显与暴力重试发热
 DOMAIN-SUFFIX,d.meituan.net
 IP-CIDR,202.90.108.13/32,no-resolve
 IP-CIDR,202.90.110.46/32,no-resolve
-# 补充：修复淘宝闪购 HTTPDNS 死等与纯 IP 绕道代理
-DOMAIN-SUFFIX,amdc.alipay.com
-IP-CIDR,47.246.0.0/16,no-resolve
 
-# 补充：修复京东商品核心图片 CDN 绕道代理
-DOMAIN-SUFFIX,360buyimg.com
-# === 百度贴吧/终极绥靖特赦名单（打断无限重试，换取CPU冰凉） ===
-# 腾讯系探针
+# === 4. 百度贴吧/全家桶终极绥靖名单 ===
+# 全面特赦流氓探针，打断网络层死循环重试，彻底解决发热
+# (广告视觉屏蔽已全权交由 MITM 模块处理)
+
+# -- 腾讯系探针 --
 DOMAIN-SUFFIX,sdk.e.qq.com
 DOMAIN-SUFFIX,snowflake.qq.com
 DOMAIN-SUFFIX,mazu.m.qq.com
 
-# 百度系探针与死等IP
+# -- 百度系探针与死等IP --
 DOMAIN-SUFFIX,als.baidu.com
 DOMAIN-SUFFIX,dlswbr.baidu.com
 DOMAIN,union-httpdns.gslb.yy.com
 IP-CIDR,180.76.76.200/32,no-resolve
 
-# 字节系底层日志
+# -- 字节系/穿山甲联盟探针 --
 DOMAIN-SUFFIX,ctobsnssdk.com
+DOMAIN-SUFFIX,pglstatp-toutiao.com
+DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
+DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com
