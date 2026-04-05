@@ -13,3 +13,9 @@ IP-CIDR,101.124.19.122/32,no-resolve
 DOMAIN-SUFFIX,d.meituan.net
 IP-CIDR,202.90.108.13/32,no-resolve
 IP-CIDR,202.90.110.46/32,no-resolve
+# 补充：修复淘宝闪购 HTTPDNS 死等与纯 IP 绕道代理
+DOMAIN-SUFFIX,amdc.alipay.com
+IP-CIDR,47.246.0.0/16,no-resolve
+
+# 补充：修复京东商品核心图片 CDN 绕道代理
+DOMAIN-SUFFIX,360buyimg.com
