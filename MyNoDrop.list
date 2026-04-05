@@ -11,3 +11,13 @@ DOMAIN-SUFFIX,mazu.m.qq.com
 DOMAIN-SUFFIX,als.baidu.com
 DOMAIN-SUFFIX,dlswbr.baidu.com
 IP-CIDR,180.76.76.200/32,no-resolve
+# === 百度贴吧第二轮死循环“补刀” ===
+
+# 斩断腾讯广点通备用图片/物料下载死循环
+DOMAIN-SUFFIX,ugdtimg.com
+
+# 斩断字节穿山甲变体备用域名死循环
+DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com
+
+# 斩断百度贴吧原生视频广告死循环
+DOMAIN-SUFFIX,nadvideo2.baidu.com
