@@ -1,0 +1,4 @@
+# === 字节系/穿山甲联盟广告 ===
+# 强制物理断连，防止贴吧等第三方App开屏白屏死等
+DOMAIN-SUFFIX,pglstatp-toutiao.com
+DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
