@@ -1,1 +1,11 @@
-# 废弃 占位
+# === 1. 字节跳动/穿山甲联盟开屏封杀 ===
+# 强制物理断连，防止第三方App开屏广告白屏死等
+DOMAIN-SUFFIX,pglstatp-toutiao.com
+DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
+DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com
+
+# === 2. 腾讯/百度原生广告资源封杀 ===
+# 斩断腾讯广点通广告图片/物料下载通道
+DOMAIN-SUFFIX,ugdtimg.com
+# 斩断百度贴吧信息流原生视频广告下载通道
+DOMAIN-SUFFIX,nadvideo2.baidu.com
