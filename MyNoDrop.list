@@ -2,3 +2,12 @@
 # 强制物理断连，防止贴吧等第三方App开屏白屏死等
 DOMAIN-SUFFIX,pglstatp-toutiao.com
 DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
+# === 百度贴吧/全家桶发热修复 ===
+# 斩断腾讯广点通广告SDK并发死循环
+DOMAIN-SUFFIX,sdk.e.qq.com
+DOMAIN-SUFFIX,mazu.m.qq.com
+
+# 斩断百度自家高频遥测与HTTPDNS死循环
+DOMAIN-SUFFIX,als.baidu.com
+DOMAIN-SUFFIX,dlswbr.baidu.com
+IP-CIDR,180.76.76.200/32,no-resolve
