@@ -9,3 +9,18 @@ DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com
 DOMAIN-SUFFIX,ugdtimg.com
 # 斩断百度贴吧信息流原生视频广告下载通道
 DOMAIN-SUFFIX,nadvideo2.baidu.com
+
+# === 3. 核心日志追踪与开屏补全（新增） ===
+# 斩断腾讯广点通核心调度与 SDK 请求（解决死锁）
+DOMAIN-SUFFIX,gdt.qq.com
+DOMAIN-SUFFIX,sdk.e.qq.com
+# 斩断友盟大数据与日志上报（解决后台线程死等）
+DOMAIN-SUFFIX,umeng.com
+DOMAIN-SUFFIX,umengcloud.com
+# 斩断高德日志强制上报（解决 2 秒超时）
+DOMAIN-SUFFIX,logs.amap.com
+# 斩断快手联盟开屏广告（国内第二大开屏污染源）
+DOMAIN-SUFFIX,ksadcdn.com
+# 斩断百度百青藤开屏联盟核心发包（防白屏）
+DOMAIN-SUFFIX,mobads.baidu.com
+DOMAIN-SUFFIX,mobads-logs.baidu.com
