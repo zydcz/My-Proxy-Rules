@@ -24,6 +24,3 @@ DOMAIN-SUFFIX,ksadcdn.com
 # 斩断百度百青藤开屏联盟核心发包（防白屏）
 DOMAIN-SUFFIX,mobads.baidu.com
 DOMAIN-SUFFIX,mobads-logs.baidu.com
-# 斩杀百度 SDK 疯狂重试风暴（解决卡顿 2 秒）
-DOMAIN,hmma.baidu.com
-DOMAIN-SUFFIX,hmma.baidu.com
