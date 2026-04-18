@@ -5,7 +5,6 @@ DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com
 
 # === 腾讯/百度/快手开屏联盟 ===
 DOMAIN-SUFFIX,gdt.qq.com
-DOMAIN-SUFFIX,sdk.e.qq.com
 DOMAIN-SUFFIX,ugdtimg.com
 DOMAIN-SUFFIX,mobads.baidu.com
 DOMAIN-SUFFIX,mobads-logs.baidu.com
