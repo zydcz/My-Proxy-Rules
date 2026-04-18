@@ -1,0 +1,19 @@
+# === 友盟/秒针/大数据追踪 ===
+DOMAIN-SUFFIX,umeng.com
+DOMAIN-SUFFIX,umengcloud.com
+DOMAIN-SUFFIX,miaozhen.com
+
+# === 关键词特征拦截（涵盖大部分日志与分析） ===
+DOMAIN-KEYWORD,analytics
+DOMAIN-KEYWORD,applog
+DOMAIN-KEYWORD,analysis
+DOMAIN-KEYWORD,usage
+
+# === 个推/推送/分析组件 ===
+DOMAIN-SUFFIX,getui.com
+DOMAIN-SUFFIX,getui.net
+DOMAIN-SUFFIX,giicdn.com
+
+# === 平台专属追踪 ===
+DOMAIN-SUFFIX,zhihu-web-analytics.zhihu.com
+DOMAIN-SUFFIX,hmma.baidu.com
