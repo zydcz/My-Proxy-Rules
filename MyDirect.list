@@ -33,3 +33,5 @@ IP-CIDR,180.76.76.200/32,no-resolve
 DOMAIN-SUFFIX,ctobsnssdk.com
 
 DOMAIN-SUFFIX,zhihu.com
+DST-PORT,123
+
