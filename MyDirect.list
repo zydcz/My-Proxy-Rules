@@ -6,7 +6,6 @@ DOMAIN-SUFFIX,alibabachengdun.com
 DOMAIN-SUFFIX,ut.taobao.com
 DOMAIN-SUFFIX,loggw-ex.alipay.com
 DOMAIN-SUFFIX,adashx.m.taobao.com
-IP-CIDR,47.246.0.0/16,no-resolve
 
 # === 2. 京东系修复 ===
 # 斩断HTTPDNS死等与消息组件误杀，修复商品图片CDN绕道
