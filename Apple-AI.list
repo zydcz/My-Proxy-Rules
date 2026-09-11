@@ -8,3 +8,6 @@ DOMAIN-SUFFIX,apple-relay.apple.com
 DOMAIN-SUFFIX,pancake.apple.com
 DOMAIN-SUFFIX,mask-api.icloud.com
 DOMAIN-SUFFIX,gateway.icloud.com
+DOMAIN,seed.siri.apple.com
+DOMAIN,probe.icloud.com
+DOMAIN,metrics.icloud.com
