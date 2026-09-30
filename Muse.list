@@ -1,7 +1,9 @@
-# Muse / Meta AI
 DOMAIN-SUFFIX,muse.ai
 DOMAIN-SUFFIX,meta.ai
 DOMAIN-SUFFIX,metaaivm.com
 DOMAIN-SUFFIX,multimango.com
 DOMAIN,auth.meta.com
 DOMAIN,meta.graph.meta.com
+DOMAIN,production.museai.com
+DOMAIN,meta-ohttp-config-prod.fastly-edge.com
+DOMAIN,meta-ohttp-relay-prod.fastly-edge.com
